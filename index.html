@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mopidevi Sriram Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .hover-scale:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-center p-10 md:p-20 bg-gradient-to-r from-purple-700 via-blue-600 to-indigo-500">
+    <div class="w-40 h-40 rounded-full bg-gradient-to-r from-purple-400 to-pink-500 flex items-center justify-center text-5xl font-bold hover-scale">MS</div>
+    <div class="md:ml-10 mt-5 md:mt-0 text-center md:text-left fade-in">
+      <h1 class="text-4xl md:text-5xl font-bold">Mopidevi Sriram</h1>
+      <p class="mt-2 text-xl">Frontend Web Developer | Tech Enthusiast</p>
+      <div class="mt-4 space-y-1">
+        <p>Frontend Web Developer with creative approach</p>
+        <p>Skilled in modern Web Designing</p>
+        <p>Exploring AI & Machine Learning research</p>
+        <p>Python programming at an intermediate level</p>
+        <p>Always curious to learn new technologies & build projects</p>
+      </div>
+    </div>
+    <a href="#" class="fixed right-5 bottom-10 bg-pink-500 px-5 py-3 rounded-full font-bold shadow-lg hover:bg-pink-600 hover-scale">📄 View Resume</a>
+  </section>
+
+  <!-- About Me -->
+  <section class="p-10 md:p-20 bg-gray-800 fade-in">
+    <h2 class="text-3xl font-bold mb-5">About Me</h2>
+    <p class="text-lg leading-8">
+      Welcome to my profile! I'm Mopidevi Sriram, a passionate Web Developer and Tech Enthusiast skilled in C, Python, HTML, CSS, SQL, and DBMS. I enjoy building impactful web solutions and have a strong foundation in programming, database management, and problem-solving. With strong communication and leadership skills, I thrive in teamwork and can effectively drive projects forward.
+      <br><br>
+      Alongside web development, I’m exploring Data Science & Analytics, working with Pandas, NumPy, TensorFlow, and Scikit-Learn to analyze data and build intelligent solutions. I’m always eager to learn, adapt to challenges, and contribute to meaningful projects that create real value.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="p-10 md:p-20 bg-gray-900 fade-in">
+    <h2 class="text-3xl font-bold mb-5">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">C</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">Python</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">Machine Learning</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">HTML</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">MySQL</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">VS Code</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">MS Excel</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">Word</div>
+      <div class="bg-gray-700 p-5 rounded-lg text-center font-semibold shadow-lg hover:bg-purple-600 hover-scale">PowerPoint</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="p-10 md:p-20 bg-gray-800 fade-in">
+    <h2 class="text-3xl font-bold mb-5">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="bg-gray-700 p-5 rounded-lg shadow-lg hover:bg-blue-600 hover-scale">
+        <h3 class="text-2xl font-bold mb-2">Credit Card Fraud Detection</h3>
+        <p class="mb-2">ML-based system to detect and prevent fraudulent credit card transactions in real-time.</p>
+        <p class="font-semibold">Technologies: AI & ML, Python</p>
+        <a href="https://github.com/sriram8-soul/Python-1" target="_blank" class="text-pink-400 font-bold hover:underline mt-2 block">GitHub Link</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="p-10 md:p-20 bg-gray-900 fade-in">
+    <h2 class="text-3xl font-bold mb-5">Education</h2>
+    <div class="space-y-5">
+      <div class="bg-gray-700 p-5 rounded-lg shadow-lg">
+        <h3 class="font-bold text-xl">2019–2020</h3>
+        <p>A.P.T.W.R School, Addateegala</p>
+        <p>CGPA: 9.8</p>
+      </div>
+      <div class="bg-gray-700 p-5 rounded-lg shadow-lg">
+        <h3 class="font-bold text-xl">2020–2022</h3>
+        <p>Aditya Junior College, Palakollu</p>
+        <p>Mathematics & Physical Science</p>
+        <p>CGPA: 6.0</p>
+      </div>
+      <div class="bg-gray-700 p-5 rounded-lg shadow-lg">
+        <h3 class="font-bold text-xl">2022–2025</h3>
+        <p>Aditya Degree College, Palakollu</p>
+        <p>BSc</p>
+        <p>CGPA: 9.0</p>
+      </div>
+    </div>
+  </section>
+<!-- Resume Section -->
+<section class="p-10 md:p-20 bg-gray-800 fade-in">
+  <h2 class="text-3xl font-bold mb-5">Resume</h2>
+  <p class="text-lg mb-5">
+    Want to know more about my background, skills, and achievements? You can view or download my resume below.
+  </p>
+  <a href="Untitled Resume.pdf" target="_blank" class="inline-block bg-pink-500 px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-pink-600 hover-scale">
+    📄 View My Resume
+  </a>
+</section>
+
+  <!-- Connect -->
+  <section class="p-10 md:p-20 bg-gray-800 fade-in">
+    <h2 class="text-3xl font-bold mb-5">Connect With Me</h2>
+    <div class="flex flex-wrap space-x-5">
+      <a href="https://www.linkedin.com/in/sriram-mopidevi-0b1486357" target="_blank" class="hover:text-pink-400 hover-scale">LinkedIn</a>
+      <a href="https://github.com/sriram8-soul/Python-1" target="_blank" class="hover:text-pink-400 hover-scale">GitHub</a>
+      <a href="https://www.instagram.com/mr.soul_08" target="_blank" class="hover:text-pink-400 hover-scale">Instagram</a>
+      <a href="https://www.facebook.com/share/19gV2KzZzk/" target="_blank" class="hover:text-pink-400 hover-scale">Facebook</a>
+    </div>
+  </section>
+
+  <script>
+    // Simple fade-in animation on scroll
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
